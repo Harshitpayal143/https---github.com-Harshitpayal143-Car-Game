@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Car Game</title>
+    <link rel="stylesheet" href="Car.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="score">Score: <span id="score">0</span></div>
+        <div class="high-score">High Score: <span id="high-score">0</span></div>
+        <div id="game-board"></div>
+        <div class="controls">
+            <button id="left-btn">← Left</button>
+            <button id="right-btn">Right →</button>
+        </div>
+        <div class="start-screen" id="start-screen">
+            <h1>Car Game</h1>
+            <p>Avoid the obstacles!</p>
+            <button id="start-btn">Start Game</button>
+        </div>
+        <div class="game-over" id="game-over">
+            <h2>Game Over!</h2>
+            <p>Your score: <span id="final-score">0</span></p>
+            <button id="restart-btn">Play Again</button>
+        </div>
+    </div>
+    <script src="car.js"></script>
+</body>
+</html>
